@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% load crispy_forms_tags %} {% block content %}
+
+<div style="text-align: center" class="form-group">
+  <div style="margin-left: 160px" class="col-md-8">
+    <br /><br /><br />
+    <form method="POST">
+      {% csrf_token %}
+      <h3>Create account</h3>
+      <hr />
+      {{ form.as_p }}
+      <div class="form-group">
+        <button class="btn btn-primary w-100 mt-2" type="submit">submit</button>
+      </div>
+    </form>
+    <div class="mt-3">
+      <small class="text-muted">Have you already created an account?
+        <a href="{% url 'accounts:user_login' %}">Login</a>
+      </small>
+    </div>
+  </div>
+  {% endblock %}
+</div>
