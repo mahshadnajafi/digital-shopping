@@ -18,7 +18,6 @@ After submission, the items will be remove from the current cart and the site ad
 
 ## How to run this application
 
- Python
 - Run `pip install -r requirements.txt` to install Django
 - pip install asgiref==3.8.1
 - pip install Django==5.0.6
