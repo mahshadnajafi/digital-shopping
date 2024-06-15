@@ -17,7 +17,7 @@ After submission, the items will be remove from the current cart and the site ad
 * Shopping Cart: Once logged in, users see and add items to their virtual “shopping cart.” The contents of the shopping is saved even if a user closes the window, or logs out and logs back in again.
 
 ## How to run this application
-
+-python3.9.11
 - Run `pip install -r requirements.txt` to install Django
 - pip install asgiref==3.8.1
 - pip install Django==5.0.6
