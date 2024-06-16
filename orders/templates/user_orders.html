@@ -13,7 +13,7 @@
   {% for item in order.items.all %}
   <div class="border-bottom p-2">
     <p>
-      محصول:
+      Product:
       <a class="text-decoration-none" href="{{ item.product.get_absolute_url }}"
         >{{item.product.title}}</a
       >
